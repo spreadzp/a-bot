@@ -11,8 +11,8 @@
     "zenbot": "./zenbot.sh"
   },
   "scripts": {
-    "train": "./zenbot.sh train binance.eth-btc --days_training 42 --days_test 14",
-    "trade": "zenbot trade binance.eth-btc --paper",
+    "train": "sh ./zenbot.sh train binance.eth-btc --days_training 42 --days_test 14",
+    "trade": "sh ./zenbot.sh trade binance.eth-btc --paper",
     "lint": "eslint **/*.js",
     "lint-fix": "eslint **/*.js --fix",
     "precommit": "lint-staged",
